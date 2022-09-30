@@ -1,0 +1,254 @@
+//ej1
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"***************************\n";
+    cout<<"******               ******\n";
+    cout<<"****** AREA TRIANGULO *****\n";
+    cout<<"******               ******\n";
+    cout<<"***************************\n";
+    cout<<"\n\n";
+    
+    //DECLARACION
+    int resp;
+    double altura = 0,base = 0,area = 0;
+    
+    //DESARROLLO
+    cout<<"A continuacion ingrese los lados del triangulo \n";
+    while (resp != 2)
+    {
+        cout<<"base :";cin>> base;cout<<endl;cout<<"altura :";cin>> altura;cout<<endl;
+        area = (base*altura)/2;
+        cout<<"el area del triangulo es = "<<area<<endl;
+
+
+        cout<<"¿desea seguir calculando areas de triangulos?  1-si 2-no"<<endl;
+        cout<<"respuesta";cin>> resp;
+    }
+    
+
+}
+
+
+
+//ej2
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"*************************\n";
+    cout<<"*****               *****\n";
+    cout<<"*****  VALOR MEDIO  *****\n";
+    cout<<"*****               *****\n";
+    cout<<"*************************\n";
+    cout<<"\n\n";
+    int num = 1;
+    int cont = 0;
+    int acu = 0;
+    double res = 0;
+    cout<<"ingrese los numeros para sacar el valor medio \n al finalizar precione 0 \n";
+    while (num != 0)
+    {
+        cout<<"ingrese valor: ";cin>>num;
+        acu = acu + num;
+        cont++;
+
+    }
+    cout<<"la media entre los valores ingresados es = "<<acu/(cont-1)<<endl;
+    
+}
+
+//ej3
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"*************************\n";
+    cout<<"*****               *****\n";
+    cout<<"*****     SUMA      *****\n";
+    cout<<"*****               *****\n";
+    cout<<"*************************\n";
+    cout<<"\n\n";
+    int cont = 0;
+    int suma = 0;
+    //do
+    //{
+    //    cont++;
+    //    suma = suma+cont;
+    //} while (cont < 10);
+
+    //cout<<"la suma del 1 al 10 con repetir es = "<<suma<<endl;
+    
+    while (cont <=10)
+    {
+        suma = suma+cont;
+        cont++;
+        
+    }
+    
+     cout<<"la suma del 1 al 10 con mientras es = "<<suma<<endl;
+
+}
+
+//ej4
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"*************************\n";
+    cout<<"*****               *****\n";
+    cout<<"*****     NOTAS     *****\n";
+    cout<<"*****               *****\n";
+    cout<<"*************************\n";
+    cout<<"\n\n";
+
+    //DECLARACION
+    double nota = 0;
+    int cont =0,desaprobados = 0,aprobados = 0;
+    
+    //DESARROLLO
+    while (cont<20)
+    {
+        cont++;
+        cout<<"ingrese nota del alumno "<<cont<<": ";cin>>nota;
+
+        if (nota>=7)
+        {
+            aprobados++;
+        }else
+        {
+            desaprobados++;
+        }
+        
+        
+    }
+    cout<<"el numero total de aprobados es= "<<aprobados<<endl;
+    cout<<"el numero total de desaprobados es= "<<desaprobados<<endl;
+ 
+
+
+}
+
+//ej5
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"*************************\n";
+    cout<<"*****               *****\n";
+    cout<<"*****     NOTAS     *****\n";
+    cout<<"*****               *****\n";
+    cout<<"*************************\n";
+    cout<<"\n\n";
+
+
+    double nota = 0;
+    int cont =0,notables = 0;
+
+    while (cont<15)
+    {
+        cont++;
+        cout<<"ingrese nota del alumno "<<cont<<": ";cin>>nota;
+
+        if (nota>=7 && nota<9)
+        {
+            notables++;
+        }
+       
+        
+    }
+    cout<<"el numero total de promocionados son = "<<notables<<endl;
+    
+ 
+
+
+}
+
+/ej6
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"*************************\n";
+    cout<<"*****               *****\n";
+    cout<<"***** VALOR MED P/N *****\n";
+    cout<<"*****               *****\n";
+    cout<<"*************************\n";
+    cout<<"\n\n";
+    
+    int num = 1,cont = 0,acuP = 0,acuN = 0;
+    int contP = 0;
+    int contN = 0;
+    double res = 0;
+    
+    cout<<"ingrese los numeros para sacar el valor medio \n";
+    while (cont <10 )
+    {
+        cout<<"ingrese valor: ";cin>>num;
+        if (num >0 )
+        {
+            acuP =  acuP+num;
+            contP++;
+        }
+        else
+        {
+            acuN = acuN+num;
+            contN++;
+        }
+        
+        cont++;
+
+    }
+    cout<<"la media entre los valores positivos es = "<<acuP/(contP)<<endl;
+    cout<<"la media entre los valores negativos es = "<<acuN/(contN)<<endl;
+    
+}
+
+//ej7 
+
+//ej1
+#include<iostream>
+
+
+using namespace std;
+int main(){
+
+int art1=0,art2=0,selec=1,selecArt=0,cantArt;
+float totArt1,totArt2,precio;
+
+
+
+do{
+    cout<<"ingrese articulo 1 o articulo 2\n";cin>>selecArt;
+    cout<<"ingrese precio del producto\n";cin>>precio;
+    cout<<"ingrese la cantidad de articulos que va a comprar\n";cin>>cantArt;
+    if(selecArt==1){
+        art1=art1+cantArt;
+        totArt1=totArt1+(precio*cantArt);
+
+    }else if(selecArt == 2){
+
+            art2=art2+cantArt;
+            totArt2=totArt2+(precio*cantArt);
+
+    }
+
+    cout<<"1 para continuar 0 para salir\n";cin>>selec;
+    cout<<"\n\n";
+    cantArt=0;precio=0;
+}while(selec!=0);
+system("clear");
+cout<<"total de articulos 1 = "<<art1<<endl<<"cantidad de articulos 2= "<<art2<<endl;
+cout<<"\n\n";
+cout<<"precio acumulado del atriculo 1 es= "<<totArt1<<endl<<"precio acumulado del articulo 2 es= "<<totArt2<<endl;
+
+
+return 0;
+}

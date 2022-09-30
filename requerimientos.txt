@@ -1,0 +1,36 @@
+1ej. Realizar un algoritmo para una organización comunitaria para los
+incendios registrados 2022 en Misiones, en el cual se desea calcular
+un presupuesto del mes de enero.
+Se leen por consola los siguientes datos: cantidad de artículos y
+subtotal recaudado en el día.
+Se debe informar 
+1)el total de presupuesto Final recaudado en el mes y
+2) La cantidad de artículos utilizados.
+
+
+
+2ej. Se leen edades de un grupo de 30 jóvenes del barrio A4, si estudia 1
+corresponde a SI, 2 corresponde a NO; informar
+A) ¿cuantos jóvenes tienen hasta 18 años?
+B) ¿cuantos jóvenes son mayores a 18 años y menores a 21 años ?
+C) Y ¿cuantos jóvenes son mayores a 21 años?
+D) ¿Cuantos jóvenes no estudian y son menores a 18 años?
+C) ¿Cuantos jóvenes estudian y son mayores a 21?
+
+
+
+
+
+3ej. Se leen edades de un grupo de jóvenes del instituto Montoya, la
+última lectura viene dado en edad 0(Cero) , se lee también en qué
+carrera está cursando si es 1: corresponde a Docente de nivel inicial; si
+es 2 corresponde a Profesorado en Filosofía , si es 3 corresponde a
+Profesorado en educación física; informar
+A) ¿cuantos jóvenes tienen entre 18 años y 21 años y están estudiando
+el profesorado de educación física?
+B) ¿cuantos jóvenes están estudiando profesorado en educación física?
+C) Y ¿cuantos jóvenes son mayores a 21 años y están estudiando el
+profesorado de nivel inicial?
+D) ¿Cuantos jóvenes están estudiando el profesorado de filosofía?
+E) ¿Cuantos jóvenes son mayores a 30 y están estudiando el
+profesorado de nivel inicial?
