@@ -1,0 +1,10 @@
+1. Imprimir diez veces su nombre utilizando el bucle for
+
+2. De una sala de hombres internados en el sanatorio El trébol, hay 23 hombre
+internados, leer la edad de cada paciente e informar el promedio de la
+misma.
+
+3. En una fábrica de alpargatas fabrica 6 modelos distintos donde cada modelo
+lleva un código 01, 02 al 06, se leen los modelos que hay en stock de un total
+del 178 pares de alpargatas, informar a) cuantos hay de cada modelo. Usar la
+estructura for de base y lo que haga falta.
