@@ -1,0 +1,62 @@
+#include<iostream>
+
+using namespace std;
+   
+int main(){
+
+   cout<<"****************************\n";
+   cout<<"****************************\n";
+   cout<<"****     FACTURACION    ****\n";
+   cout<<"****************************\n";
+   cout<<"****************************\n";
+
+   //INICIO 
+   int metPago = -1,cant=0;
+   double venta = 0,subTot=0,total=0,acu15=0,acu20=0,acuEfe=0,acuCred=0;
+   ;while (metPago != 0)
+   {
+      cout<<"Ingrese el metodo de pago"<<endl;
+      cout<<"*1- CONTADO"<<endl<<"*2- CREDITO"<<endl<<"*0- TERMINAR CARGA"<<endl;
+      cout<<"respuesta: ";cin>>metPago;
+      cout<<"\n\n";
+      system("clear");
+      if (metPago==0)
+      {
+         break;
+      }
+      cout<<"Ingrese el monto total\n";
+      cout<<"respuesta: ";cin>>venta;
+      cout<<"Ingrese la cantidad\n";
+      cout<<"respuesta: ";cin>>cant;
+      system("clear");
+     
+     
+     
+      if (metPago==1 && cant>=20&& cant<40)
+      {
+         subTot=venta-venta*0.15;acu15=acu15+subTot;
+      }
+      else if (metPago==1 && cant>=40)
+      {
+         subTot=venta-venta*0.25;acu20=acu20+subTot;
+      }
+      else if (metPago==2)
+      {
+         subTot=venta;acuCred=acuCred+subTot;
+      }else if (metPago==1)
+      {
+         subTot=venta;acuEfe=acuEfe+subTot;
+      }
+      
+      cout<<"el total de la venta actual es de : "<<subTot<<endl;
+     
+   }
+   cout<<"itotal de la venta al contado con 15 %: "<<acu15<<endl;
+   cout<<"total de la venta al contado con 25 % : "<<acu20<<endl;
+   cout<<"total de la venta al contado sin descuento : "<<acuEfe<<endl;
+   cout<<"total de la venta con credito : "<<acuCred<<endl;
+   
+
+
+return 0;
+}

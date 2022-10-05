@@ -1,0 +1,21 @@
+EJERCITACION CON ESTRUCTURAS REPETITIVAS
+Escriba el programa en código en C++ para que una tienda pueda ingresar por cada 
+cliente el monto total vendido en pesos; al monto total vendido se le aplica un 
+descuento de acuerdo a las siguientes condiciones de pago: si la venta es al 
+contado (1) y lleva más de 20 productos se descontará el 15% y si el pago es a 
+contado (1) y lleva más de 40 productos se le descontará 25%. Si es el modo de 
+pago es a crédito (condición de venta a crédito 2) no recibe descuentos. La carga 
+termina cuando la condición de pago es 0.
+ Informar:
+Cada venta con la condición de pago e importe con y sin descuento si lo tuviere.
+El total vendido al contado y con más de 20 productos con y sin descuentos
+El total vendido al contado y con más de 40 productos  con y sin descuentos.
+El total de la venta a crédito.
+Y el total general de las ventas
+
+Realizar un programa en el que  se postulan  x participantes para el puesto de 
+una nueva empresa de marketing digital, la carga termina cuando no se desea 
+ingresar más participantes.  Cada uno de los participantes realizan una inversión
+ y quien dio el mayor valor será el dueño de la empresa misma, y si hay dos o más
+  que invirtieron igual valor queda el que se postulo primero.
+Nota: debe usar una variable auxiliar (aux) para ir analizando el importe.
