@@ -1,0 +1,25 @@
+﻿Cátedra: Lenguaje I
+Trabajo practico con vectores para ejercitar
+    1. Cargar un vector con números enteros de 15 elementos, luego cargar un segundo vector de 15 
+    elementos con los elementos del primer vector multiplicado cada uno por dos.
+
+    2. Que lea 10 números por teclado, los almacene en un arraya y muestre la media.
+
+    3. Que rellene un array con 20 números y luego busque un número concreto ingresado por el 
+    usuario. Primero cargamos el vector, luego solicitamos al usuario que ingrese el número a 
+    localizar en el vector, y luego recorremos e informamos si está el numero solicitado por el  
+    usuario y en qué posición.
+
+    4. Leer el sueldo de 15 empleados y cargar en un vector, informar el sueldo promedio.
+
+    5. Cargar en un vector el total del sueldo de cada empleado teniendo en cuenta lo siguiente: 
+    Si tiene categoría 1: el sueldo básico es $25000 si tiene categoría 2: sueldo básico es de $35000;
+     si recentismo es igual a treinta: significa que no fato y se le paga un plus del 5% del sueldo 
+     básico; se le hace un descuento para servicios de obra social del 2%. Son diez empleados.
+     Resolver 5) 
+    
+    6. Cargar en un vector el total del sueldo de cada empleado teniendo en cuenta lo siguiente: 
+    Si tiene categoría 1: el sueldo básico es $25000 si tiene categoría 2: sueldo básico es de $35000;
+     si recentismo es igual a treinta: significa que no fato y se le paga un plus del 5% del sueldo 
+     básico; se le hace un descuento para servicios de obra social del 2%. Son diez empleados.
+
