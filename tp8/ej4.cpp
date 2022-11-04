@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int matriz[3][3],sumaFila=0,mayor=0;
+    int matriz[3][3],sumaFila=0,mayor=0,suma=0;
 
     for (int i = 0; i < 3; i++)
     {
@@ -40,6 +40,14 @@ int main(){
         
         
     }
+
+    for (int j = 0; j < 3; ++j) {
+		suma = 0;
+		for (int i = 0; i < 3; ++i) {
+			suma += matriz[i][j];
+		}
+		cout << "La suma de la columna " << j << " es: " << suma << endl;
+	}
     cout<<"la fila que mas sumo "<<mayor<<endl;
     cout<<"\n\n";
 
